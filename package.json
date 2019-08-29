@@ -1,7 +1,7 @@
 {
 	"name": "javascript-development-environment",
 	"version": "1.0.0",
-	"description": "JavaScript development environment Pluralsight course by Cory House",
+	"description": "JavaScript development environment",
 	"scripts": {
 		"prestart": "node buildScripts/message.js",
 		"start": "npm-run-all test open",
@@ -12,7 +12,7 @@
 		"test:watch": "npm run test -- --watch",
 		"generate-mock-data": "node buildScripts/generateMockData.js"
 	},
-	"author": "Cory House",
+	"author": "Katleho Khanye",
 	"license": "MIT",
 	"dependencies": {
 		"whatwg-fetch": "1.0.0"
